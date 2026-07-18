@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.RadioButton
@@ -35,6 +36,7 @@ import com.istighfar.app40k.ui.components.GoalPickerDialog
 import com.istighfar.app40k.util.DataExporter
 
 @Composable
+@OptIn(ExperimentalMaterial3Api::class)
 fun SettingsScreen(viewModelFactory: ViewModelFactory) {
     val viewModel: SettingsViewModel = viewModel(factory = viewModelFactory)
     val settings by viewModel.settings.collectAsState()
