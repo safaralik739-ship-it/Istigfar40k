@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Istighfar 40K</string>
+    <string name="reminder_channel_name">Напоминания об истигфаре</string>
+    <string name="reminder_channel_desc">Напоминания произнести Астагфируллах</string>
+    <string name="reminder_title">Время для зикра 🌙</string>
+    <string name="reminder_text">Не забудь произнести: أستغفر الله</string>
+</resources>
